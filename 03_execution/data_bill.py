@@ -11,7 +11,6 @@ def main():
     if gb_used <= DATA: 
         print("within data limit")
     elif gb_used > DATA:
-
         if gb_used < DATA + 5:
             print("moderate data usage")
         else:
