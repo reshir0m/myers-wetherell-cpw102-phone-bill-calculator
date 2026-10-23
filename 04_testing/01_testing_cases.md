@@ -83,7 +83,7 @@ Your total bill is: $61.00
 ```
 
 **Pass / Fail and why:**
+Pass. The program accepted the decimal input, correctly showed 5.5 GB over the limit and labeled it as high extra usage.
 
 If a case fails, fix the program and add evidence of the rerun below that case.
 
-Pass. The program accepted the decimal input, correctly showed 5.5 GB over the limit and labeled it as high extra usage.

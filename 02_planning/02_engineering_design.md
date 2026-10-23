@@ -1,8 +1,8 @@
 # Engineering Design
 
 **Team members:**
-Owen Wetherell
-Damon Myers
+- Owen Wetherell
+- Damon Myers
 
 Plan how your code will meet the product requirements. Keep answers brief.
 
@@ -22,9 +22,9 @@ Get base plan cost from the user
 Set total cost to the base plan cost
 
 Call is_over_limit with data used
-[
+
 If is_over_limit returns True:
-       Calculate GB over = data used - 10
+    Calculate GB over = data used - 10
     Display how many GB over the limit
     If GB over is 5 or less:
         Display "Moderate extra usage"
@@ -35,7 +35,7 @@ Else:
     Display "You are within your data limit"
 
 Display the total bill formatted as dollars
-]
+
 ## Output
 
 *What will the program display for each usage category?*
@@ -46,7 +46,7 @@ Within limit (10 GB or less):
 
 Moderate (over 10 GB, up to 5 GB over):
     "You are X.X GB over your limit."
-    "Moderate Extra Usage."
+    "Moderate extra usage."
     "Your total bill is: $XX.XX"
 
 High (more than 5 GB over):

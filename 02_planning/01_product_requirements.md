@@ -1,8 +1,8 @@
 # Product Requirements
 
 **Team members:**
-Owen Wetherell
-Damon Myers
+- Owen Wetherell
+- Damon Myers
 
 Translate the problem statement into requirements. Keep answers brief.
 
