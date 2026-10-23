@@ -27,7 +27,7 @@ def main():
         print("You are within your data limit.")
 
 
-    print(f"Your total bill is: ${total_cost: .2f}")
+    print(f"Your total bill is: ${total_cost:.2f}")
 
 main()
 

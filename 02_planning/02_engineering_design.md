@@ -60,7 +60,8 @@ High (more than 5 GB over):
 
 Name: is_over_limit
 
-Parameter: True if gb_used is more than 10 GB, False if it is 10 GB or less.
+Parameter: gb_used (float) - the amount of data used in GB
+Returns: True if gb_used is more than 10 GB, False if it is 10 GB or less.
 
 How the program uses it: 
 main() calls is_over_limit(gb_used) and uses the result in an if statement. 
